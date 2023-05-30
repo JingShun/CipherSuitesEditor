@@ -8,7 +8,7 @@
 且一台一台通知太麻煩，打算直接派送，
 所以才有了這篇
 
-## 指令介紹
+## 檔案介紹
 ### CipherSuitesEditor.bat
 CipherSuitesEditor.bat是主程式，以系統管理員身分運行即可
 
@@ -21,6 +21,9 @@ CipherSuitesEditor.bat是主程式，以系統管理員身分運行即可
 ### DisableCiphers.reg
 - 停用不安全的設定
 - 不選擇刪除是為了因應部分舊版作業系統預設是啟用的，所以必須指定停用以防萬一
+
+### run.rpx
+瑞思Rapix派送專用檔案
 
 ## 調整教學
 - 登錄檔DisableCiphers.reg 可自行調整
@@ -41,7 +44,9 @@ p.s.
 
 2023/05/29
 - 考慮GPO、本地的加密套件設定而調整
+
 2023/05/23
 - 重構
+
 2023/05/15
 - 建立
