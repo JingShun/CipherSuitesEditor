@@ -2,6 +2,7 @@
 透過批次檔來新增編輯加密套件與協定
 
 ## 由來
+[[HackMD]](https://hackmd.io/@ChaosFractal/HyaMm3KH3)
 
 因為弱掃發現高風險漏洞，
 需要停用3DES、RC4等加密套件，
