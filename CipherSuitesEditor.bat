@@ -46,8 +46,8 @@ call :removeSystemCipherSuites RC4
 echo.
 echo 4. 加入高安全性的加密套件
 set  "newCipherSuites=TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
-call :addPolicyCipherSuites %newCipherSuites%
-call :addSystemCipherSuites %newCipherSuites%
+call :addPolicyCipherSuites "%newCipherSuites%"
+call :addSystemCipherSuites "%newCipherSuites%"
 
 echo.
 echo 5. 結束
